@@ -1,0 +1,7 @@
+run_mode: debug                 # 开发模式, debug, release, test
+addr: :8000                 # HTTP绑定端口
+name: snake                     # API Server的名字
+url: http://127.0.0.1:8000      # pingServer函数请求的API服务器的ip:port
+max_ping_count: 10              # pingServer函数try的次数
+jwt_secret: Rtg9BPKNE62mB4mgvK9NGPZvQSaJWNxijxR42qRgq0iBv5
+jwt_duration: 2                 # token 有效时长，单位小时
